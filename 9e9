@@ -1,0 +1,1281 @@
+--[[
+	Roblox2Lua
+	----------
+	
+	This code was generated using
+	Deluct's Roblox2Lua plugin.
+]]--
+
+--// Instances
+
+local metab = Instance.new("ScreenGui")
+metab.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+metab.Name = "METAB"
+metab.Parent = game.CoreGui
+
+local image_meta = Instance.new("ImageLabel")
+image_meta.Image = "http://www.roblox.com/asset/?id=10748764736"
+image_meta.BackgroundColor3 = Color3.new(1, 1, 1)
+image_meta.BackgroundTransparency = 1
+image_meta.Position = UDim2.new(0.330339551, 0, 0.276173532, 0)
+image_meta.Size = UDim2.new(0, 378, 0, 231)
+image_meta.Name = "ImageMETA"
+image_meta.Parent = metab
+
+local metabdrag = Instance.new("LocalScript")
+metabdrag.Name = "METAB DRAG"
+metabdrag.Parent = image_meta
+
+local image_label = Instance.new("ImageLabel")
+image_label.Image = "https://www.roblox.com/headshot-thumbnail/image?player.userId=48103520&width=420&height=420&format=png"
+image_label.BackgroundColor3 = Color3.new(1, 1, 1)
+image_label.BackgroundTransparency = 1
+image_label.Position = UDim2.new(0.368147671, 0, 0.0429425947, 0)
+image_label.Size = UDim2.new(0, 83, 0, 65)
+image_label.Parent = image_meta
+
+local local_script = Instance.new("LocalScript")
+local_script.Parent = image_label
+
+local text_button = Instance.new("TextButton")
+text_button.Font = Enum.Font.SourceSans
+text_button.TextColor3 = Color3.new(0, 0, 0)
+text_button.TextSize = 14
+text_button.TextTransparency = 1
+text_button.BackgroundColor3 = Color3.new(1, 1, 1)
+text_button.BackgroundTransparency = 1
+text_button.Position = UDim2.new(0.0516440943, 0, 0.848086953, 0)
+text_button.Size = UDim2.new(0, 337, 0, 15)
+text_button.Parent = image_meta
+
+local local_script_2 = Instance.new("LocalScript")
+local_script_2.Parent = text_button
+
+local close_button = Instance.new("ImageButton")
+close_button.Image = "http://www.roblox.com/asset/?id=7400386959"
+close_button.AnchorPoint = Vector2.new(0.5, 0.5)
+close_button.BackgroundColor3 = Color3.new(1, 1, 1)
+close_button.BackgroundTransparency = 1
+close_button.BorderSizePixel = 0
+close_button.Position = UDim2.new(0.945234954, 0, 0.0561105907, 0)
+close_button.Size = UDim2.new(0.147562012, 0, 0.252116382, 0)
+close_button.Name = "CloseButton"
+close_button.Parent = image_meta
+
+local local_script_3 = Instance.new("LocalScript")
+local_script_3.Parent = close_button
+
+local anime = Instance.new("LocalScript")
+anime.Name = "ANIME"
+anime.Parent = close_button
+
+local uigradient = Instance.new("UIGradient")
+uigradient.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.new(1, 1, 1)), ColorSequenceKeypoint.new(0.9990000128746033, Color3.new(1, 1, 1)), ColorSequenceKeypoint.new(1, Color3.new(0, 0.533333, 1))})
+uigradient.Offset = Vector2.new(-0.3499999940395355, 0)
+uigradient.Rotation = -135
+uigradient.Parent = close_button
+
+local uiaspect_ratio_constraint = Instance.new("UIAspectRatioConstraint")
+uiaspect_ratio_constraint.AspectRatio = 2
+uiaspect_ratio_constraint.Parent = close_button
+
+local crash = Instance.new("ScrollingFrame")
+crash.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
+crash.ScrollBarImageColor3 = Color3.new(0, 0.215686, 0.8)
+crash.ScrollBarImageTransparency = 1
+crash.ScrollBarThickness = 10
+crash.Active = true
+crash.BackgroundColor3 = Color3.new(1, 1, 1)
+crash.BackgroundTransparency = 1
+crash.BorderColor3 = Color3.new(0, 0.298039, 1)
+crash.BorderSizePixel = 0
+crash.Position = UDim2.new(0.042328041, 0, 0.350649357, 0)
+crash.Size = UDim2.new(0, 338, 0, 100)
+crash.Name = "CRASH"
+crash.Parent = image_meta
+
+local metabimage = Instance.new("ImageButton")
+metabimage.Image = "http://www.roblox.com/asset/?id=10748899293"
+metabimage.ScaleType = Enum.ScaleType.Crop
+metabimage.BackgroundColor3 = Color3.new(1, 1, 1)
+metabimage.BorderSizePixel = 0
+metabimage.Position = UDim2.new(0.0118343197, 0, 0, 0)
+metabimage.Size = UDim2.new(0, 100, 0, 100)
+metabimage.Name = "METAB IMAGE"
+metabimage.Parent = crash
+
+local metabscript = Instance.new("LocalScript")
+metabscript.Name = "METAB SCRIPT"
+metabscript.Parent = metabimage
+
+local metabjoin = Instance.new("TextButton")
+metabjoin.Font = Enum.Font.FredokaOne
+metabjoin.Text = "JOIN GAME"
+metabjoin.TextColor3 = Color3.new(1, 1, 1)
+metabjoin.TextSize = 14
+metabjoin.BackgroundColor3 = Color3.new(0, 0, 0)
+metabjoin.BackgroundTransparency = 0.550000011920929
+metabjoin.BorderSizePixel = 0
+metabjoin.Size = UDim2.new(0, 100, 0, 21)
+metabjoin.Name = "METAB JOIN"
+metabjoin.Parent = metabimage
+
+local local_script_4 = Instance.new("LocalScript")
+local_script_4.Parent = metabjoin
+
+local metabimage_2 = Instance.new("ImageButton")
+metabimage_2.Image = "http://www.roblox.com/asset/?id=10749923331"
+metabimage_2.ScaleType = Enum.ScaleType.Slice
+metabimage_2.BackgroundColor3 = Color3.new(1, 1, 1)
+metabimage_2.BorderSizePixel = 0
+metabimage_2.Position = UDim2.new(0.339652002, 0, 0, 0)
+metabimage_2.Size = UDim2.new(0, 100, 0, 100)
+metabimage_2.Name = "METAB IMAGE"
+metabimage_2.Parent = crash
+
+local metabscript_2 = Instance.new("LocalScript")
+metabscript_2.Name = "METAB SCRIPT"
+metabscript_2.Parent = metabimage_2
+
+local metabjoin_2 = Instance.new("TextButton")
+metabjoin_2.Font = Enum.Font.FredokaOne
+metabjoin_2.Text = "JOIN GAME"
+metabjoin_2.TextColor3 = Color3.new(1, 1, 1)
+metabjoin_2.TextSize = 14
+metabjoin_2.BackgroundColor3 = Color3.new(0, 0, 0)
+metabjoin_2.BackgroundTransparency = 0.550000011920929
+metabjoin_2.BorderSizePixel = 0
+metabjoin_2.Size = UDim2.new(0, 100, 0, 21)
+metabjoin_2.Name = "METAB JOIN"
+metabjoin_2.Parent = metabimage_2
+
+local local_script_5 = Instance.new("LocalScript")
+local_script_5.Parent = metabjoin_2
+
+local metabimage_3 = Instance.new("ImageButton")
+metabimage_3.Image = "http://www.roblox.com/asset/?id=10748984485"
+metabimage_3.ScaleType = Enum.ScaleType.Crop
+metabimage_3.BackgroundColor3 = Color3.new(1, 1, 1)
+metabimage_3.BorderSizePixel = 0
+metabimage_3.Position = UDim2.new(0.673971534, 0, 0, 0)
+metabimage_3.Size = UDim2.new(0, 100, 0, 100)
+metabimage_3.Name = "METAB IMAGE"
+metabimage_3.Parent = crash
+
+local metabscript_3 = Instance.new("LocalScript")
+metabscript_3.Name = "METAB SCRIPT"
+metabscript_3.Parent = metabimage_3
+
+local metabjoin_3 = Instance.new("TextButton")
+metabjoin_3.Font = Enum.Font.FredokaOne
+metabjoin_3.Text = "JOIN GAME"
+metabjoin_3.TextColor3 = Color3.new(1, 1, 1)
+metabjoin_3.TextSize = 14
+metabjoin_3.BackgroundColor3 = Color3.new(0, 0, 0)
+metabjoin_3.BackgroundTransparency = 0.550000011920929
+metabjoin_3.BorderSizePixel = 0
+metabjoin_3.Size = UDim2.new(0, 100, 0, 21)
+metabjoin_3.Name = "METAB JOIN"
+metabjoin_3.Parent = metabimage_3
+
+local local_script_6 = Instance.new("LocalScript")
+local_script_6.Parent = metabjoin_3
+
+local metabimage_4 = Instance.new("ImageButton")
+metabimage_4.Image = "http://www.roblox.com/asset/?id=10754635004"
+metabimage_4.ScaleType = Enum.ScaleType.Crop
+metabimage_4.BackgroundColor3 = Color3.new(1, 1, 1)
+metabimage_4.BorderSizePixel = 0
+metabimage_4.Position = UDim2.new(0.0118343197, 0, 0.33116883, 0)
+metabimage_4.Size = UDim2.new(0, 100, 0, 100)
+metabimage_4.Name = "METAB IMAGE"
+metabimage_4.Parent = crash
+
+local metabscript_4 = Instance.new("LocalScript")
+metabscript_4.Name = "METAB SCRIPT"
+metabscript_4.Parent = metabimage_4
+
+local metabjoin_4 = Instance.new("TextButton")
+metabjoin_4.Font = Enum.Font.FredokaOne
+metabjoin_4.Text = "JOIN GAME"
+metabjoin_4.TextColor3 = Color3.new(1, 1, 1)
+metabjoin_4.TextSize = 14
+metabjoin_4.BackgroundColor3 = Color3.new(0, 0, 0)
+metabjoin_4.BackgroundTransparency = 0.550000011920929
+metabjoin_4.BorderSizePixel = 0
+metabjoin_4.Size = UDim2.new(0, 100, 0, 21)
+metabjoin_4.Name = "METAB JOIN"
+metabjoin_4.Parent = metabimage_4
+
+local local_script_7 = Instance.new("LocalScript")
+local_script_7.Parent = metabjoin_4
+
+local metabimage_5 = Instance.new("ImageButton")
+metabimage_5.Image = "http://www.roblox.com/asset/?id=10754635004"
+metabimage_5.ScaleType = Enum.ScaleType.Crop
+metabimage_5.BackgroundColor3 = Color3.new(1, 1, 1)
+metabimage_5.BorderSizePixel = 0
+metabimage_5.Position = UDim2.new(0.340236694, 0, 0.33116883, 0)
+metabimage_5.Size = UDim2.new(0, 100, 0, 100)
+metabimage_5.Name = "METAB IMAGE"
+metabimage_5.Parent = crash
+
+local metabscript_5 = Instance.new("LocalScript")
+metabscript_5.Name = "METAB SCRIPT"
+metabscript_5.Parent = metabimage_5
+
+local metabjoin_5 = Instance.new("TextButton")
+metabjoin_5.Font = Enum.Font.FredokaOne
+metabjoin_5.Text = "JOIN GAME"
+metabjoin_5.TextColor3 = Color3.new(1, 1, 1)
+metabjoin_5.TextSize = 14
+metabjoin_5.BackgroundColor3 = Color3.new(0, 0, 0)
+metabjoin_5.BackgroundTransparency = 0.550000011920929
+metabjoin_5.BorderSizePixel = 0
+metabjoin_5.Size = UDim2.new(0, 100, 0, 21)
+metabjoin_5.Name = "METAB JOIN"
+metabjoin_5.Parent = metabimage_5
+
+local local_script_8 = Instance.new("LocalScript")
+local_script_8.Parent = metabjoin_5
+
+local metabimage_6 = Instance.new("ImageButton")
+metabimage_6.Image = "http://www.roblox.com/asset/?id=10754635004"
+metabimage_6.ScaleType = Enum.ScaleType.Crop
+metabimage_6.BackgroundColor3 = Color3.new(1, 1, 1)
+metabimage_6.BorderSizePixel = 0
+metabimage_6.Position = UDim2.new(0.67159766, 0, 0.33116883, 0)
+metabimage_6.Size = UDim2.new(0, 100, 0, 100)
+metabimage_6.Name = "METAB IMAGE"
+metabimage_6.Parent = crash
+
+local metabscript_6 = Instance.new("LocalScript")
+metabscript_6.Name = "METAB SCRIPT"
+metabscript_6.Parent = metabimage_6
+
+local metabjoin_6 = Instance.new("TextButton")
+metabjoin_6.Font = Enum.Font.FredokaOne
+metabjoin_6.Text = "JOIN GAME"
+metabjoin_6.TextColor3 = Color3.new(1, 1, 1)
+metabjoin_6.TextSize = 14
+metabjoin_6.BackgroundColor3 = Color3.new(0, 0, 0)
+metabjoin_6.BackgroundTransparency = 0.550000011920929
+metabjoin_6.BorderSizePixel = 0
+metabjoin_6.Size = UDim2.new(0, 100, 0, 21)
+metabjoin_6.Name = "METAB JOIN"
+metabjoin_6.Parent = metabimage_6
+
+local local_script_9 = Instance.new("LocalScript")
+local_script_9.Parent = metabjoin_6
+
+local metabauto = Instance.new("LocalScript")
+metabauto.Name = "METAB AUTO"
+metabauto.Parent = image_meta
+
+local image_button = Instance.new("ImageButton")
+image_button.Image = "http://www.roblox.com/asset/?id=8139623167"
+image_button.BackgroundColor3 = Color3.new(1, 1, 1)
+image_button.BackgroundTransparency = 1
+image_button.Position = UDim2.new(0.450224787, 0, 0.00651465775, 0)
+image_button.Size = UDim2.new(0, 123, 0, 60)
+image_button.Parent = metab
+
+local local_script_10 = Instance.new("LocalScript")
+local_script_10.Parent = image_button
+
+--//Modules
+
+local modules = {}
+
+--// Scripts
+
+-- METAB DRAG
+task.spawn(function()
+	local script = metabdrag
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	
+	local UIS = game:GetService('UserInputService')
+	
+	local frame = script.Parent
+	
+	
+	
+	local dragToggle = nil
+	
+	local dragSpeed = 0.25
+	
+	local dragStart = nil
+	
+	local startPos = nil
+	
+	
+	
+	local function updateInput(input)
+	
+		local delta = input.Position - dragStart
+	
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+	
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	
+	end
+	
+	
+	
+	frame.InputBegan:Connect(function(input)
+	
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+	
+			dragToggle = true
+	
+			dragStart = input.Position
+	
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+	
+				if input.UserInputState == Enum.UserInputState.End then
+	
+					dragToggle = false
+	
+				end
+	
+			end)
+	
+		end
+	
+	end)
+	
+	
+	
+	UIS.InputChanged:Connect(function(input)
+	
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	
+			if dragToggle then
+	
+				updateInput(input)
+	
+			end
+	
+		end
+	
+	end)
+	
+	
+	
+	
+end)
+
+-- LocalScript
+task.spawn(function()
+	local script = local_script
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	-- Fetch the thumbnail
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	-- Set the ImageLabel's content to the user thumbnail
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+	imageLabel.Size = UDim2.new(0, 83, 0, 65)
+	
+end)
+
+-- LocalScript
+task.spawn(function()
+	local script = local_script_2
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.CRASH.Visible = true
+		wait(0.1)
+	end)
+end)
+
+-- LocalScript
+task.spawn(function()
+	local script = local_script_3
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end)
+
+-- ANIME
+task.spawn(function()
+	local script = anime
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	local btn = script.Parent
+	local uiGradient = btn:WaitForChild("UIGradient")
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-0.35, 0)})
+	local gradientAddTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(1, 0)})
+	
+	
+	btn.MouseEnter:Connect(function()
+		
+		isHovering = true
+		
+		gradientAddTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		
+		isHovering = false
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+		
+		if not isHovering then
+			gradientRestoreTween:Play()
+		else
+			gradientAddTween:Play()
+		end
+	end)
+end)
+
+-- METAB SCRIPT
+task.spawn(function()
+	local script = metabscript
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		game.Players.LocalPlayer.Character.Head.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftHand.Transparency = 1
+		game.Players.LocalPlayer.Character.RightHand.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftLowerArm.Transparency = 1
+		game.Players.LocalPlayer.Character.RightLowerArm.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftUpperArm.Transparency = 1
+		game.Players.LocalPlayer.Character.RightUpperArm.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftFoot.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftLowerLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.UpperTorso.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftUpperLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.RightFoot.Transparency = 1
+		game.Players.LocalPlayer.Character.RightLowerLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.LowerTorso.Transparency = 1
+		game.Players.LocalPlayer.Character.RightUpperLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.Head.face.Transparency = 1
+	
+		for i,v in pairs(workspace:GetDescendants()) do
+			if v:IsA("Accessory") then
+				v:Destroy()
+			end
+		end
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(719.102, 37.3755, 1122.03)
+		wait(0.5)
+		game:GetService"RunService".RenderStepped:Connect(function()
+			wait()
+	
+			for i,v in pairs(workspace.ClothingRacks.ClothingRack.Hitbox:GetDescendants()) do
+				if v:IsA("ClickDetector") then
+					fireclickdetector(v)
+				end
+			end
+	
+	
+			wait()
+	
+	
+			local LocalPlayer = game:GetService("Players").LocalPlayer
+			local Character = LocalPlayer.Character
+			local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+	
+			function rm()
+				for i,v in pairs(Character:GetDescendants()) do
+					if v:IsA("BasePart") then
+						if v.Name == "Handle" or v.Name == "Head" then
+							if Character.Head:FindFirstChild("OriginalSize") then
+								Character.Head.OriginalSize:Destroy()
+							end
+						else
+							for i,cav in pairs(v:GetDescendants()) do
+								if cav:IsA("Attachment") then
+									if cav:FindFirstChild("OriginalPosition") then
+										cav.OriginalPosition:Destroy()  
+									end
+								end
+							end
+							v:FindFirstChild("OriginalSize"):Destroy()
+							if v:FindFirstChild("AvatarPartScaleType") then
+								v:FindFirstChild("AvatarPartScaleType"):Destroy()
+							end
+						end
+					end
+				end
+			end
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyProportionScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyHeightScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("HeadScale"):Destroy()
+			wait(1)
+		end)
+	
+	
+	end)
+end)
+
+-- LocalScript
+task.spawn(function()
+	local script = local_script_4
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("TeleportService"):Teleport(606849621, LocalPlayer)
+		end)
+end)
+
+-- METAB SCRIPT
+task.spawn(function()
+	local script = metabscript_2
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		game.Players.LocalPlayer.Character.Head.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftHand.Transparency = 1
+		game.Players.LocalPlayer.Character.RightHand.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftLowerArm.Transparency = 1
+		game.Players.LocalPlayer.Character.RightLowerArm.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftUpperArm.Transparency = 1
+		game.Players.LocalPlayer.Character.RightUpperArm.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftFoot.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftLowerLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.UpperTorso.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftUpperLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.RightFoot.Transparency = 1
+		game.Players.LocalPlayer.Character.RightLowerLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.LowerTorso.Transparency = 1
+		game.Players.LocalPlayer.Character.RightUpperLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.Head.face.Transparency = 1
+	
+		for i,v in pairs(workspace:GetDescendants()) do
+			if v:IsA("Accessory") then
+				v:Destroy()
+			end
+		end
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-66.4382, 12.0319, -73.6215)
+		wait(0.5)
+		game:GetService"RunService".RenderStepped:Connect(function()
+			wait()
+	
+			game:GetService("ReplicatedStorage").Packages._Index["sleitnick_knit@1.4.4"].knit.Services.CharacterService.RF.EditorCall:InvokeServer("ResetAvatar")
+	
+	
+			wait()
+	
+	
+			local LocalPlayer = game:GetService("Players").LocalPlayer
+			local Character = LocalPlayer.Character
+			local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+	
+			function rm()
+				for i,v in pairs(Character:GetDescendants()) do
+					if v:IsA("BasePart") then
+						if v.Name == "Handle" or v.Name == "Head" then
+							if Character.Head:FindFirstChild("OriginalSize") then
+								Character.Head.OriginalSize:Destroy()
+							end
+						else
+							for i,cav in pairs(v:GetDescendants()) do
+								if cav:IsA("Attachment") then
+									if cav:FindFirstChild("OriginalPosition") then
+										cav.OriginalPosition:Destroy()  
+									end
+								end
+							end
+							v:FindFirstChild("OriginalSize"):Destroy()
+							if v:FindFirstChild("AvatarPartScaleType") then
+								v:FindFirstChild("AvatarPartScaleType"):Destroy()
+							end
+						end
+					end
+				end
+			end
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyProportionScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyHeightScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("HeadScale"):Destroy()
+			wait(1)
+		end)
+	
+	
+	end)
+end)
+
+-- LocalScript
+task.spawn(function()
+	local script = local_script_5
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("TeleportService"):Teleport(8481844229, LocalPlayer)
+	end)
+end)
+
+-- METAB SCRIPT
+task.spawn(function()
+	local script = metabscript_3
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		game.Players.LocalPlayer.Character.Head.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftHand.Transparency = 1
+		game.Players.LocalPlayer.Character.RightHand.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftLowerArm.Transparency = 1
+		game.Players.LocalPlayer.Character.RightLowerArm.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftUpperArm.Transparency = 1
+		game.Players.LocalPlayer.Character.RightUpperArm.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftFoot.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftLowerLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.UpperTorso.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftUpperLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.RightFoot.Transparency = 1
+		game.Players.LocalPlayer.Character.RightLowerLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.LowerTorso.Transparency = 1
+		game.Players.LocalPlayer.Character.RightUpperLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.Head.face.Transparency = 1
+	
+		for i,v in pairs(workspace:GetDescendants()) do
+			if v:IsA("Accessory") then
+				v:Destroy()
+			end
+		end
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true 
+		wait(0.5)
+		game:GetService"RunService".RenderStepped:Connect(function()
+			wait(3)
+	
+			local a = game.Players.LocalPlayer.UserId
+	
+			local args = {
+				[1] = {
+					["RigType"] = Enum.HumanoidRigType.R15,
+					["Action"] = "MorphIntoPlayer",
+					["UserId"] = a
+				}
+			}
+	
+			game:GetService("ReplicatedStorage").CatalogGuiRemote:InvokeServer(unpack(args))
+	
+	
+			wait()
+	
+	
+			local LocalPlayer = game:GetService("Players").LocalPlayer
+			local Character = LocalPlayer.Character
+			local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+	
+			function rm()
+				for i,v in pairs(Character:GetDescendants()) do
+					if v:IsA("BasePart") then
+						if v.Name == "Handle" or v.Name == "Head" then
+							if Character.Head:FindFirstChild("OriginalSize") then
+								Character.Head.OriginalSize:Destroy()
+							end
+						else
+							for i,cav in pairs(v:GetDescendants()) do
+								if cav:IsA("Attachment") then
+									if cav:FindFirstChild("OriginalPosition") then
+										cav.OriginalPosition:Destroy()  
+									end
+								end
+							end
+							v:FindFirstChild("OriginalSize"):Destroy()
+							if v:FindFirstChild("AvatarPartScaleType") then
+								v:FindFirstChild("AvatarPartScaleType"):Destroy()
+							end
+						end
+					end
+				end
+			end
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyProportionScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyHeightScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("HeadScale"):Destroy()
+			wait(1)
+		end)
+	
+	
+	end)
+end)
+
+-- LocalScript
+task.spawn(function()
+	local script = local_script_6
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("TeleportService"):Teleport(7041939546, LocalPlayer)
+		end)
+end)
+
+-- METAB SCRIPT
+task.spawn(function()
+	local script = metabscript_4
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		game.Players.LocalPlayer.Character.Head.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftHand.Transparency = 1
+		game.Players.LocalPlayer.Character.RightHand.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftLowerArm.Transparency = 1
+		game.Players.LocalPlayer.Character.RightLowerArm.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftUpperArm.Transparency = 1
+		game.Players.LocalPlayer.Character.RightUpperArm.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftFoot.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftLowerLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.UpperTorso.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftUpperLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.RightFoot.Transparency = 1
+		game.Players.LocalPlayer.Character.RightLowerLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.LowerTorso.Transparency = 1
+		game.Players.LocalPlayer.Character.RightUpperLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.Head.face.Transparency = 1
+	
+		for i,v in pairs(workspace:GetDescendants()) do
+			if v:IsA("Accessory") then
+				v:Destroy()
+			end
+		end
+		
+		
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(25.4893, 1.90105, 108.898)
+		wait(0.5)
+		game:GetService"RunService".RenderStepped:Connect(function()
+			wait()
+	
+			game:GetService("ReplicatedStorage").PlayerChannel:FireServer("ResetAvatarAppearance",true)
+	
+			wait()
+	
+	
+			local LocalPlayer = game:GetService("Players").LocalPlayer
+			local Character = LocalPlayer.Character
+			local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+	
+			function rm()
+				for i,v in pairs(Character:GetDescendants()) do
+					if v:IsA("BasePart") then
+						if v.Name == "Handle" or v.Name == "Head" then
+							if Character.Head:FindFirstChild("OriginalSize") then
+								Character.Head.OriginalSize:Destroy()
+							end
+						else
+							for i,cav in pairs(v:GetDescendants()) do
+								if cav:IsA("Attachment") then
+									if cav:FindFirstChild("OriginalPosition") then
+										cav.OriginalPosition:Destroy()  
+									end
+								end
+							end
+							v:FindFirstChild("OriginalSize"):Destroy()
+							if v:FindFirstChild("AvatarPartScaleType") then
+								v:FindFirstChild("AvatarPartScaleType"):Destroy()
+							end
+						end
+					end
+				end
+			end
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyProportionScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyHeightScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("HeadScale"):Destroy()
+			wait(1)
+		end)
+	
+	
+	end)
+end)
+
+-- LocalScript
+task.spawn(function()
+	local script = local_script_7
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("TeleportService"):Teleport(192800, LocalPlayer)
+		end)
+end)
+
+-- METAB SCRIPT
+task.spawn(function()
+	local script = metabscript_5
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		game.Players.LocalPlayer.Character.Head.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftHand.Transparency = 1
+		game.Players.LocalPlayer.Character.RightHand.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftLowerArm.Transparency = 1
+		game.Players.LocalPlayer.Character.RightLowerArm.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftUpperArm.Transparency = 1
+		game.Players.LocalPlayer.Character.RightUpperArm.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftFoot.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftLowerLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.UpperTorso.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftUpperLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.RightFoot.Transparency = 1
+		game.Players.LocalPlayer.Character.RightLowerLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.LowerTorso.Transparency = 1
+		game.Players.LocalPlayer.Character.RightUpperLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.Head.face.Transparency = 1
+	
+		for i,v in pairs(workspace:GetDescendants()) do
+			if v:IsA("Accessory") then
+				v:Destroy()
+			end
+		end
+		
+		
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(25.4893, 1.90105, 108.898)
+		wait(0.5)
+		game:GetService"RunService".RenderStepped:Connect(function()
+			wait()
+	
+			game:GetService("ReplicatedStorage").PlayerChannel:FireServer("ResetAvatarAppearance",true)
+	
+			wait()
+	
+	
+			local LocalPlayer = game:GetService("Players").LocalPlayer
+			local Character = LocalPlayer.Character
+			local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+	
+			function rm()
+				for i,v in pairs(Character:GetDescendants()) do
+					if v:IsA("BasePart") then
+						if v.Name == "Handle" or v.Name == "Head" then
+							if Character.Head:FindFirstChild("OriginalSize") then
+								Character.Head.OriginalSize:Destroy()
+							end
+						else
+							for i,cav in pairs(v:GetDescendants()) do
+								if cav:IsA("Attachment") then
+									if cav:FindFirstChild("OriginalPosition") then
+										cav.OriginalPosition:Destroy()  
+									end
+								end
+							end
+							v:FindFirstChild("OriginalSize"):Destroy()
+							if v:FindFirstChild("AvatarPartScaleType") then
+								v:FindFirstChild("AvatarPartScaleType"):Destroy()
+							end
+						end
+					end
+				end
+			end
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyProportionScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyHeightScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("HeadScale"):Destroy()
+			wait(1)
+		end)
+	
+	
+	end)
+end)
+
+-- LocalScript
+task.spawn(function()
+	local script = local_script_8
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("TeleportService"):Teleport(192800, LocalPlayer)
+		end)
+end)
+
+-- METAB SCRIPT
+task.spawn(function()
+	local script = metabscript_6
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		game.Players.LocalPlayer.Character.Head.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftHand.Transparency = 1
+		game.Players.LocalPlayer.Character.RightHand.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftLowerArm.Transparency = 1
+		game.Players.LocalPlayer.Character.RightLowerArm.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftUpperArm.Transparency = 1
+		game.Players.LocalPlayer.Character.RightUpperArm.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftFoot.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftLowerLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.UpperTorso.Transparency = 1
+		game.Players.LocalPlayer.Character.LeftUpperLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.RightFoot.Transparency = 1
+		game.Players.LocalPlayer.Character.RightLowerLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.LowerTorso.Transparency = 1
+		game.Players.LocalPlayer.Character.RightUpperLeg.Transparency = 1
+		game.Players.LocalPlayer.Character.Head.face.Transparency = 1
+	
+		for i,v in pairs(workspace:GetDescendants()) do
+			if v:IsA("Accessory") then
+				v:Destroy()
+			end
+		end
+		
+		
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(25.4893, 1.90105, 108.898)
+		wait(0.5)
+		game:GetService"RunService".RenderStepped:Connect(function()
+			wait()
+	
+			game:GetService("ReplicatedStorage").PlayerChannel:FireServer("ResetAvatarAppearance",true)
+	
+			wait()
+	
+	
+			local LocalPlayer = game:GetService("Players").LocalPlayer
+			local Character = LocalPlayer.Character
+			local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+	
+			function rm()
+				for i,v in pairs(Character:GetDescendants()) do
+					if v:IsA("BasePart") then
+						if v.Name == "Handle" or v.Name == "Head" then
+							if Character.Head:FindFirstChild("OriginalSize") then
+								Character.Head.OriginalSize:Destroy()
+							end
+						else
+							for i,cav in pairs(v:GetDescendants()) do
+								if cav:IsA("Attachment") then
+									if cav:FindFirstChild("OriginalPosition") then
+										cav.OriginalPosition:Destroy()  
+									end
+								end
+							end
+							v:FindFirstChild("OriginalSize"):Destroy()
+							if v:FindFirstChild("AvatarPartScaleType") then
+								v:FindFirstChild("AvatarPartScaleType"):Destroy()
+							end
+						end
+					end
+				end
+			end
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyProportionScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyHeightScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+			wait(1)
+	
+			rm()
+			wait(0.5)
+			Humanoid:FindFirstChild("HeadScale"):Destroy()
+			wait(1)
+		end)
+	
+	
+	end)
+end)
+
+-- LocalScript
+task.spawn(function()
+	local script = local_script_9
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("TeleportService"):Teleport(192800, LocalPlayer)
+		end)
+end)
+
+-- METAB AUTO
+task.spawn(function()
+	local script = metabauto
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	game:GetService("Players").LocalPlayer.PlayerGui.HDAdminGUIs.Notices:Destroy()
+end)
+
+-- LocalScript
+task.spawn(function()
+	local script = local_script_10
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.ImageMETA.Visible = not script.Parent.Parent.ImageMETA.Visible
+	end)
+	
+	
+end)
